@@ -1,0 +1,491 @@
+:root {
+    --dl-size-size-large: 144px;
+    --dl-size-size-small: 48px;
+    --dl-color-line-color: rgba(143, 167, 205, 1);
+    --dl-size-size-medium: 96px;
+    --dl-size-size-xlarge: 192px;
+    --dl-size-size-xsmall: 16px;
+    --dl-space-space-unit: 16px;
+    --dl-size-size-xxlarge: 288px;
+    --dl-size-size-maxwidth: 1400px;
+    --dl-color-theme-accent1: #FFFFFF;
+    --dl-color-theme-accent2: #F5D1B0;
+    --dl-radius-radius-round: 50%;
+    --dl-color-theme-primary1: #BF4408;
+    --dl-color-theme-primary2: #E65103;
+    --dl-space-space-halfunit: 8px;
+    --dl-space-space-sixunits: 96px;
+    --dl-space-space-twounits: 32px;
+    --dl-color-color-highlight: rgba(36, 83, 158, 1);
+    --dl-radius-radius-radius2: 2px;
+    --dl-radius-radius-radius4: 4px;
+    --dl-radius-radius-radius8: 8px;
+    --dl-space-space-fiveunits: 80px;
+    --dl-space-space-fourunits: 64px;
+    --dl-color-color-highlight2: rgba(232, 134, 6, 1);
+    --dl-color-theme-secondary1: #FFFFFF;
+    --dl-color-theme-secondary2: #FBF1EB;
+    --dl-space-space-threeunits: 48px;
+    --dl-color-darkmode-texttitle: rgba(255, 255, 255, 1);
+    --dl-color-theme-neutral-dark: #191818;
+    --dl-radius-radius-cardradius: 8px;
+    --dl-color-lightmode-texttitle: rgba(22, 23, 35, 1);
+    --dl-color-theme-neutral-light: #FBFAF9;
+    --dl-radius-radius-imageradius: 8px;
+    --dl-radius-radius-inputradius: 24px;
+    --dl-radius-radius-buttonradius: 24px;
+    --dl-color-lightmode-description: rgba(65, 65, 82, 1);
+    --dl-space-space-oneandhalfunits: 24px;
+  }
+  
+  .button {
+    color: var(--dl-color-theme-neutral-dark);
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border-color: var(--dl-color-theme-neutral-dark);
+    border-width: 1px;
+    border-radius: 4px;
+    background-color: var(--dl-color-theme-neutral-light);
+  }
+  
+  .input {
+    color: var(--dl-color-theme-neutral-dark);
+    cursor: auto;
+    padding: 0.5rem 1rem;
+    border-color: var(--dl-color-theme-neutral-dark);
+    border-width: 1px;
+    border-radius: 4px;
+    background-color: var(--dl-color-theme-neutral-light);
+  }
+  
+  .textarea {
+    color: var(--dl-color-theme-neutral-dark);
+    cursor: auto;
+    padding: 0.5rem;
+    border-color: var(--dl-color-theme-neutral-dark);
+    border-width: 1px;
+    border-radius: 4px;
+    background-color: var(--dl-color-theme-neutral-light);
+  }
+  
+  .list {
+    width: 100%;
+    margin: 1em 0px 1em 0px;
+    display: block;
+    padding: 0px 0px 0px 1.5rem;
+    list-style-type: none;
+    list-style-position: outside;
+  }
+  
+  .list-item {
+    display: list-item;
+  }
+  
+  .Content {
+    font-size: 16px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 1.15;
+    text-transform: none;
+    text-decoration: none;
+  }
+  
+  .MediumDesktopHeadingLargeBold {
+    font-size: 51px;
+    font-style: normal;
+    font-family: DM Serif Display;
+    font-weight: 400px;
+    font-stretch: normal;
+    letter-spacing: 0px;
+  }
+  
+  .MediumDesktopHeadingLargeRegular {
+    font-size: 51px;
+    font-style: normal;
+    font-family: DM Serif Display;
+    font-weight: 400px;
+    font-stretch: normal;
+    letter-spacing: 0px;
+  }
+  
+  .MediumDesktopHeadingBold {
+    font-size: 38px;
+    font-style: normal;
+    font-family: DM Serif Display;
+    font-weight: 400px;
+    font-stretch: normal;
+    letter-spacing: 0px;
+  }
+  
+  .MediumDesktopHeadingRegular {
+    font-size: 38px;
+    font-style: normal;
+    font-family: DM Serif Display;
+    font-weight: 400px;
+    font-stretch: normal;
+    letter-spacing: 0px;
+  }
+  
+  .MediumDesktopHeadingSmallBold {
+    font-size: 28px;
+    font-style: normal;
+    font-family: Open Sans;
+    font-weight: 700px;
+    font-stretch: normal;
+    letter-spacing: 0px;
+  }
+  
+  .MediumDesktopHeadingSmallRegular {
+    font-size: 28px;
+    font-style: normal;
+    font-family: Open Sans;
+    font-weight: 400px;
+    font-stretch: normal;
+    letter-spacing: 0px;
+  }
+  
+  .MediumDesktopSubheadingBold {
+    font-size: 21px;
+    font-style: normal;
+    font-family: Open Sans;
+    font-weight: 700px;
+    font-stretch: normal;
+    letter-spacing: 0px;
+  }
+  
+  .MediumDesktopSubheadingRegular {
+    font-size: 21px;
+    font-style: normal;
+    font-family: Open Sans;
+    font-weight: 400px;
+    font-stretch: normal;
+    letter-spacing: 0px;
+  }
+  
+  .MediumDesktopParagraphBold {
+    font-size: 16px;
+    font-style: normal;
+    font-family: Open Sans;
+    font-weight: 700px;
+    font-stretch: normal;
+    letter-spacing: 0px;
+  }
+  
+  .MediumDesktopParagraphRegular {
+    font-size: 16px;
+    font-style: normal;
+    font-family: Inter Tight;
+    font-weight: 400px;
+    font-stretch: normal;
+    letter-spacing: 0.5px;
+  }
+  
+  .MediumMobileHeadingLargeBold {
+    font-size: 44px;
+    font-style: normal;
+    font-family: DM Serif Display;
+    font-weight: 400px;
+    font-stretch: normal;
+    letter-spacing: 0px;
+  }
+  
+  .MediumMobileHeadingLargeRegular {
+    font-size: 44px;
+    font-style: normal;
+    font-family: DM Serif Display;
+    font-weight: 400px;
+    font-stretch: normal;
+    letter-spacing: 0px;
+  }
+  
+  .MediumMobileHeadingRegular {
+    font-size: 33px;
+    font-style: normal;
+    font-family: DM Serif Display;
+    font-weight: 400px;
+    font-stretch: normal;
+    letter-spacing: 0px;
+  }
+  
+  .MediumMobileHeadingBold {
+    font-size: 33px;
+    font-style: normal;
+    font-family: DM Serif Display;
+    font-weight: 400px;
+    font-stretch: normal;
+    letter-spacing: 0px;
+  }
+  
+  .MediumMobileHeadingSmallRegular {
+    font-size: 24px;
+    font-style: normal;
+    font-family: Open Sans;
+    font-weight: 400px;
+    font-stretch: normal;
+    letter-spacing: 0px;
+  }
+  
+  .MediumMobileHeadingSmallBold {
+    font-size: 24px;
+    font-style: normal;
+    font-family: Open Sans;
+    font-weight: 700px;
+    font-stretch: normal;
+    letter-spacing: 0px;
+  }
+  
+  .MediumMobileSubheadingBold {
+    font-size: 19px;
+    font-style: normal;
+    font-family: Open Sans;
+    font-weight: 700px;
+    font-stretch: normal;
+    letter-spacing: 0px;
+  }
+  
+  .MediumMobileSubheadingRegular {
+    font-size: 19px;
+    font-style: normal;
+    font-family: Open Sans;
+    font-weight: 400px;
+    font-stretch: normal;
+    letter-spacing: 0px;
+  }
+  
+  .MediumMobileParagraphBold {
+    font-size: 14px;
+    font-style: normal;
+    font-family: Open Sans;
+    font-weight: 700px;
+    font-stretch: normal;
+    letter-spacing: 0px;
+  }
+  
+  .MediumMobileParagraphRegular {
+    font-size: 14px;
+    font-style: normal;
+    font-family: Open Sans;
+    font-weight: 400px;
+    font-stretch: normal;
+    letter-spacing: 0px;
+  }
+  
+  .MediumDesktopHeading3Semibold {
+    font-size: 40px;
+    font-style: normal;
+    font-family: Inter Tight;
+    font-weight: 600px;
+    font-stretch: normal;
+    letter-spacing: 0.25px;
+  }
+  
+  .MediumDesktopSubHeadingSemibold {
+    font-size: 19px;
+    font-style: normal;
+    font-family: Inter Tight;
+    font-weight: 600px;
+    font-stretch: normal;
+    letter-spacing: 0.5px;
+  }
+  
+  .MediumDesktopSubHeadingSemibold1 {
+    font-size: 19px;
+    font-style: normal;
+    font-family: Inter Tight;
+    font-weight: 600px;
+    font-stretch: normal;
+    letter-spacing: 0.5px;
+  }
+  
+  .MediumDesktopParagraphSemibold {
+    font-size: 16px;
+    font-style: normal;
+    font-family: Inter Tight;
+    font-weight: 600px;
+    font-stretch: normal;
+    letter-spacing: 0.5px;
+  }
+  
+  .MediumDesktopCaptionRegular {
+    font-size: 13px;
+    font-style: normal;
+    font-family: Inter Tight;
+    font-weight: 400px;
+    font-stretch: normal;
+    letter-spacing: 0.5px;
+  }
+  
+  .MediumDesktopHeading4Bold {
+    font-size: 33px;
+    font-style: normal;
+    font-family: Inter Tight;
+    font-weight: 700px;
+    font-stretch: normal;
+    letter-spacing: 0.25px;
+  }
+  
+  .MediumDesktopParagraphRegular1 {
+    font-size: 16px;
+    font-style: normal;
+    font-family: Inter Tight;
+    font-weight: 400px;
+    font-stretch: normal;
+    letter-spacing: 0.5px;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 1200px) {
+    .MediumDesktopHeadingLargeBold,
+    .MediumDesktopHeadingLargeRegular {
+      font-size: 44px;
+    }
+  
+    .MediumDesktopHeadingBold,
+    .MediumDesktopHeadingRegular {
+      font-size: 33px;
+    }
+  
+    .MediumDesktopHeadingSmallBold,
+    .MediumDesktopHeadingSmallRegular {
+      font-size: 24px;
+    }
+  
+    .MediumDesktopSubheadingBold,
+    .MediumDesktopSubheadingRegular {
+      font-size: 19px;
+    }
+  
+    .MediumDesktopParagraphBold,
+    .MediumDesktopParagraphRegular {
+      font-size: 14px;
+    }
+  
+    .MediumDesktopHeading3Semibold {
+      font-size: 35px;
+    }
+  
+    .MediumDesktopSubHeadingSemibold,
+    .MediumDesktopSubHeadingSemibold1 {
+      font-size: 17px;
+    }
+  
+    .MediumDesktopParagraphSemibold {
+      font-size: 14px;
+    }
+  
+    .MediumDesktopCaptionRegular {
+      font-size: 12px;
+    }
+  
+    .MediumDesktopHeading4Bold {
+      font-size: 30px;
+    }
+  
+    .MediumDesktopParagraphRegular1 {
+      font-size: 14px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .MediumDesktopHeadingLargeBold,
+    .MediumDesktopHeadingLargeRegular {
+      font-size: 38px;
+    }
+  
+    .MediumDesktopHeadingBold,
+    .MediumDesktopHeadingRegular {
+      font-size: 28px;
+    }
+  
+    .MediumDesktopHeadingSmallBold,
+    .MediumDesktopHeadingSmallRegular {
+      font-size: 21px;
+    }
+  
+    .MediumDesktopSubheadingBold,
+    .MediumDesktopSubheadingRegular {
+      font-size: 16px;
+    }
+  
+    .MediumDesktopParagraphBold,
+    .MediumDesktopParagraphRegular {
+      font-size: 12px;
+    }
+  
+    .MediumDesktopHeading3Semibold {
+      font-size: 30px;
+    }
+  
+    .MediumDesktopSubHeadingSemibold,
+    .MediumDesktopSubHeadingSemibold1 {
+      font-size: 15px;
+    }
+  
+    .MediumDesktopParagraphSemibold {
+      font-size: 12px;
+    }
+  
+    .MediumDesktopCaptionRegular {
+      font-size: 11px;
+    }
+  
+    .MediumDesktopHeading4Bold {
+      font-size: 25px;
+    }
+  
+    .MediumDesktopParagraphRegular1 {
+      font-size: 12px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .MediumDesktopHeadingLargeBold,
+    .MediumDesktopHeadingLargeRegular {
+      font-size: 32px;
+    }
+  
+    .MediumDesktopHeadingBold,
+    .MediumDesktopHeadingRegular {
+      font-size: 24px;
+    }
+  
+    .MediumDesktopHeadingSmallBold,
+    .MediumDesktopHeadingSmallRegular {
+      font-size: 18px;
+    }
+  
+    .MediumDesktopSubheadingBold,
+    .MediumDesktopSubheadingRegular {
+      font-size: 14px;
+    }
+  
+    .MediumDesktopParagraphBold,
+    .MediumDesktopParagraphRegular {
+      font-size: 10px;
+    }
+  
+    .MediumDesktopHeading3Semibold {
+      font-size: 25px;
+    }
+  
+    .MediumDesktopSubHeadingSemibold,
+    .MediumDesktopSubHeadingSemibold1 {
+      font-size: 13px;
+    }
+  
+    .MediumDesktopParagraphSemibold {
+      font-size: 10px;
+    }
+  
+    .MediumDesktopCaptionRegular {
+      font-size: 10px;
+    }
+  
+    .MediumDesktopHeading4Bold {
+      font-size: 20px;
+    }
+  
+    .MediumDesktopParagraphRegular1 {
+      font-size: 10px;
+    }
+  }

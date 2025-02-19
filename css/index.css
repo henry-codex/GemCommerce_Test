@@ -1,0 +1,231 @@
+.homepage-container {
+    width: 100%;
+    display: flex;
+    overflow: auto;
+    min-height: 100vh;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .homepage-homepage {
+    width: 100%;
+    height: auto;
+    display: flex;
+    overflow: hidden;
+    align-items: flex-start;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  
+  .section1 {
+    gap: 48px;
+    width: 100%;
+    max-width: 1920px;
+    display: flex;
+    padding: 80px 20px;
+    align-items: center;
+    flex-shrink: 0;
+    flex-direction: column;
+  }
+  
+  .heading-text {
+    color: var(--dl-color-lightmode-texttitle);
+    width: 100%;
+    max-width: 536px;
+    height: auto;
+    text-align: center;
+    line-height: 120%;
+  }
+  
+  .section1-hero {
+    gap: 30px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .section1-hero-left-wrapper,
+  .section1-hero-right-wrapper {
+    gap: 80px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  
+  .section1-hero-content-wrapper {
+    gap: 24px;
+    width: 100%;
+    max-width: 370px;
+    display: flex;
+    align-items: flex-start;
+    flex-shrink: 0;
+  }
+  
+  .food1-image-div,
+  .petbowl1-image-div,
+  .petfood1,
+  .vet1 {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-radius: 60px;
+  }
+  
+  .food1-image-div {
+    background-color: rgba(219, 248, 202, 1);
+  }
+  
+  .petbowl1-image-div {
+    background-color: rgba(247, 239, 213, 1);
+  }
+  
+  .petfood1 {
+    background-color: rgba(199, 242, 231, 1);
+  }
+  
+  .vet1 {
+    background-color: rgba(247, 202, 189, 1);
+  }
+  
+  .dog-food-icons {
+    top: 0px;
+    left: 0px;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+  }
+  
+  .hero-content-text-wrapper {
+    gap: 8px;
+    width: 100%;
+    max-width: 286px;
+    display: flex;
+    flex-grow: 1;
+    align-items: flex-start;
+    flex-shrink: 0;
+    flex-direction: column;
+  }
+  
+  .section-top-middle {
+    width: 100%;
+    max-width: 370px;
+    height: 370px;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  
+  .hero-maskgroup {
+    top: 0px;
+    left: 0px;
+    width: 185px;
+    height: 370px;
+    display: flex;
+    overflow: hidden;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  
+  .line-arrow-image-wrapper {
+    top: 0px;
+    left: 150px;
+    width: 22px;
+    height: 370px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  
+  .line-arrow-food-image {
+    top: 0px;
+    left: 25px;
+    height: 100%;
+    position: absolute;
+  }
+  
+  .p-regular {
+    color: var(--dl-color-lightmode-description);
+    height: auto;
+    align-self: stretch;
+    text-align: left;
+    line-height: 150%;
+  }
+  
+  .button-payment-section {
+    gap: 16px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .get-healthy-meal-button {
+    gap: 10px;
+    display: flex;
+    padding: 12px 40px;
+    overflow: hidden;
+    align-self: stretch;
+    align-items: flex-end;
+    flex-shrink: 0;
+    border-radius: 6px;
+    justify-content: center;
+    background-color: rgba(238, 111, 75, 1);
+    transition: background-color 0.3s ease;
+  }
+  
+  .get-healthy-meal-button:hover {
+    background-color: rgba(255, 140, 0, 1); 
+  }
+  
+  .button-text {
+    color: var(--dl-color-darkmode-texttitle);
+    height: auto;
+    text-align: left;
+    line-height: 150%;
+  }
+  
+  .money-guarantee-container {
+    gap: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .money-guarantee {
+    gap: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .actionshieldcheck {
+    width: 16px;
+    height: 16px;
+  }
+  
+  .money-back-text {
+    color: var(--dl-color-lightmode-description);
+    height: auto;
+    text-align: left;
+    line-height: 150%;
+  }
+  
+  .homepage-payments-option {
+    gap: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  
+  .payment-option-image {
+    width: 39px;
+    height: 24px;
+  }
