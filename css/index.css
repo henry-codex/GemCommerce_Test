@@ -229,3 +229,125 @@
     width: 39px;
     height: 24px;
   }
+
+  /*Cont second section*/
+
+  .section2 {
+    gap: 30px;
+    width: 100%;
+    max-width: 1920px;
+    display: flex;
+    padding: 80px 20px;
+    align-items: center;
+    flex-shrink: 0;
+    justify-content: center;
+    background-color: rgba(248, 248, 248, 1);
+  }
+  
+  .section2-container {
+    gap: 48px;
+    width: 100%;
+    max-width: 570px;
+    display: flex;
+    padding: 0 32px 0 0;
+    align-items: flex-start;
+    flex-shrink: 0;
+    flex-direction: column;
+  }
+  
+  .section2-top-text-container,
+  .section2-key-points {
+    gap: 16px;
+    display: flex;
+    align-self: stretch;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  
+  .sub-heading {
+    color: var(--dl-color-lightmode-texttitle);
+    height: auto;
+    align-self: stretch;
+    text-align: left;
+    line-height: 150%;
+  }
+  
+  .dog-percentage-container {
+    gap: 12px;
+    display: flex;
+    align-self: stretch;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  
+  .ninety-seven-percent,
+  .eight-four-percent,
+  .ninety-two-percent {
+    gap: 48px;
+    display: flex;
+    align-self: stretch;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  
+  .p-regular-1 {
+    color: var(--dl-color-lightmode-description);
+    height: auto;
+    flex-grow: 1;
+    text-align: left;
+    line-height: 150%;
+  }
+  
+  .heading-4 {
+    color: rgba(238, 111, 75, 1);
+    height: auto;
+    text-align: left;
+    line-height: 150%;
+  }
+  
+  .button-nutrition {
+    gap: 10px;
+    display: flex;
+    padding: 12px 40px;
+    overflow: hidden;
+    align-self: stretch;
+    align-items: flex-end;
+    flex-shrink: 0;
+    border-radius: 6px;
+    justify-content: center;
+    background-color: rgba(238, 111, 75, 1);
+  }
+  
+  .dog1 {
+    width: 100%;
+    max-width: 570px;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .section3 {
+    gap: 80px;
+    width: 100%;
+    max-width: 1920px;
+    display: flex;
+    padding: 80px 20px;
+    align-items: center;
+    flex-shrink: 0;
+    flex-direction: column;
+  }
+  
+  .section3-top-container,
+  .section3-bottom-container {
+    gap: 30px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .dogs-eat,
+  .dog-food-square {
+    width: 100%;
+    max-width: 570px;
+    height: auto;
+    border-radius: 10px;
+  }
